@@ -21,18 +21,12 @@
 			switch($r['typeUser']){
 				case "1":
 					header("Location: http://localhost/imobiliaria/inquilino.php");
-					$data = array('username'=>$username, 'typeUser'=>$r['typeUser']);
-					echo json_encode($data);
 					exit;
 				case "2":
-					header("Location: http://localhost/imobiliaria/imovel.php");
-					$data = array('username'=>$username, 'typeUser'=>$r['typeUser']);
-					echo json_encode($data);
+					header("Location: http://localhost/imobiliaria/imobiliaria.php");
 					exit;
 				case "3":
 					header("Location: http://localhost/imobiliaria/proprietario.php");
-					$data = array('username'=>$username, 'typeUser'=>$r['typeUser']);
-					echo json_encode($data);
 					exit;
 			}
 		} else {

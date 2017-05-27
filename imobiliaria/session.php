@@ -5,12 +5,12 @@
 
 	if(!isset($user_check))
 	{	
-		$out = array('nome'=>' ');
+		$out = array('user_check'=>' ');
 		header('Location: home.html');
 	}
 	else
 	{
-		$out = array('nome'=>$nome);
+		$out = array('user_check'=>$user_check);
 	}
-	echo json_encode($out);
+	json_encode($out);
 ?>
