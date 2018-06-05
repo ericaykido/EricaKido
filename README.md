@@ -1,1 +1,1 @@
-Programas em Java, Ruby on Rails, PHP, HTML e CSS
+Programs in Python, Ruby on Rails, HTML, PHP.
