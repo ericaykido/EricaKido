@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1494940426 source:c:\users\erica\documents\codeblocks\cadeira\main.c
+	<windows.h>
+	<gl/gl.h>
+	<stdio.h>
+	<gl/glu.h>
+	<gl/glext.h>
+	<math.h>
+
